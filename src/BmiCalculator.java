@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class BmiCalculator {
     public static double calculateBmi(double weight, double height) {
-        double bmi = weight / (height * height);
-        return bmi;
+        return weight / (height * height);
     }
 
     public static String getBmiCategory(double bmi) {
