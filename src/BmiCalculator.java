@@ -27,8 +27,8 @@ public class BmiCalculator {
         System.out.print("体重を入力してください[kg]: ");
         double weight = scanner.nextDouble();
         // 演算
-        double bmi = calculateBmi(weight, height);
-        String bmiCategory = getBmiCategory(bmi);
+        final double bmi = calculateBmi(weight, height);
+        final String bmiCategory = getBmiCategory(bmi);
         // 出力
         System.out.printf("%-20s%n", "=".repeat(20));
         System.out.printf("%-7s %.2f%n", "[BMI]", bmi);
