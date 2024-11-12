@@ -2,6 +2,7 @@
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     "java.format.settings.profile": "GoogleStyle",
     "java.checkstyle.configuration": "${workspaceFolder}/google_checks.xml",
+    "java.inlayHints.parameterNames.enabled": "none",
     "[java]": {
         "editor.formatOnSave": true,
     },
